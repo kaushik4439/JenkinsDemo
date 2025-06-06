@@ -12,6 +12,7 @@ public class Calculator {
 
     public int mul(int a, int b) {
         return a * b;
+
     }
 
     public double div(int a, int b) {
@@ -19,6 +20,7 @@ public class Calculator {
             throw new ArithmeticException("Division by zero is not allowed.");
         }
         return (double) a / b;
+
     }
 
 
